@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+    <head>
+        <title>Ольшанский Михаил M33021</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="резюме,Ольшанский,Михаил,Дмитриевич">
+        <meta name="description" content="Резюме">
+        <link href="css/outline.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <section id="Мой опыт">
+                <strong>Опыт программирования</strong>
+                <p>
+                    Общий стаж: 6 лет (с 2015)<br>
+                    Программировал на C/C++, Python, Java, HTML, Haskell, SQL, PHP, Pascal, Assembler, Bash<br>
+                    Работал с GIT репозиториями
+                    Опыт работы: отсутствует
+                </p>
+            </section>
+            <section id="Контакты">
+                <img src="resources/My_Photo.jpeg" height="160px" width="120px" alt=My_Photo>
+                <p>
+                    Ольшанский Михаил Дмитриевич<br>
+                    Контакты:<br>
+                    E-mail: molshansky2002@gmail.com<br>
+                    GitHub: <a href="https://github.com/MihailOlshansky">MihailOlshansky</a><br>
+                    Telegram: <a href="https://t.me/OlshMD">OlshMD</a>
+                </p>
+            </section>
+            <nav>
+                <a href="#Контакты">Контакты</a><br>
+                <a href="#О себе">О себе</a><br>
+                <a href="#Мой опыт">Мой опыт</a><br>
+                <a href="#Мои проекты">Мои проекты</a><br>
+                <a href="#Мои у/н">Мои успехи и неудачи</a>
+            </nav> 
+        </header>
+            <main>
+            <aside id="О себе">
+                <h4>О себе</h4><br>
+                Родился <time datetime="2002-02-19">19 февраля 2002 года</time><br>
+                Окончил ГФМЛ №30 в <time datetime="2019-06-24">2019 году</time><br>
+                Именно там увлёкся и начал заниматься программированием<br>
+                Сейчас я студент 3 курса ИТМО Факультета Информационных Технологий и Программирования<br>
+                Учусь на направлении Информационных Систем и Технологий<br>
+                Увлекаюсь баскетболом, катанием на велосипеде и лыжах, <del>ничего-не-далением</del> просмотром сериалов, животными и многим другим<br>
+            </aside>
+            <section id="Мои проекты">
+                <strong>Мои проекты</strong><br>
+                В рамках лабораторных в школе и университете писал:
+                <ul>
+                    <li>
+                        различные алгоритмы:
+                        <ol>
+                            <li>сжатие данных (Хаффман)</li>
+                            <li>работа с графами (dfs/bfs, остовные деревья, балансировка, нахождение минимальных путей и т.п.)</li>
+                            <li>на работу со строками</li>
+                            <li>со словарями (hash map)</li>
+                        </ol>
+                    </li>
+                    <li>программы для знакомства с функционалом C/C++</li>
+                    <li>алгоритмы минимизаций функций (градиентный спуск)</li>
+                    <li>запросы для взаимодейсвий с бд</li>
+                    <li>клиент-серверную систему для взаимодействия с бд (добавление, удаление и поиск в системе бд бд/таблиц/элементов)</li>
+                    <li>программы для знакомства с графикой (OpenGL)</li>
+                    <li>другие работы</li>
+                </ul>
+            </section>
+            <article>
+                <h4>Пример моего кода</h4>
+                <pre><code lang="C++">
+    int bfs(
+        std::vector<bool>& used,
+        const std::map<int, std::set<int>>& children,
+        int point) {
+
+        std::set<int> points = children.at(point);
+        for (auto const& i : points) {
+            used[i] = true;
+            std::set<int> i_children = children.at(i);
+            for (auto const& j : i_children) {
+                if (!used[j]) {
+                    points.insert(j);
+                    used[j] = true;
+                }
+            }
+        }
+
+        return points.size();
+    }
+
+                </code></pre>
+            </article>
+            <section id="Мои у/н">
+                <h4>Мои успехи и неудачи</h4>
+                <dl>
+                    <dt>Успехи</dt>
+                    <dd>Окончил ГФМЛ №30</dd>
+                    <dd>2 года стабильно учился на 4/5 в университете</dd>
+                    <dd>Участвовал во многих контестах</dd>
+                    <dt>Неудачи</dt>
+                    <dd>Не прошёл собеседования в Яндекс и Saber</dd>
+                </dl>
+            </section>
+        </main>
+        <footer>
+            <aside>
+                <pre>
+    ╭━━━━┻┻╮╲╲╲╲╲┏╮Ⓣ
+    ┗┳┳┳╮╰┛┣╲╲╲╲╲┫┃╲
+    ╲╲╲╲┃┊┊╰┻┻┻┻┻╯┃Ⓡ
+    ┏┻┻┻╯┊┊┊┊┊┊┊┊╭╯Ⓔ
+    ╰━━━━━╮╭━╮┊┊╭╯╲Ⓧ
+    ╲╲╲╲╲╲╰╰╲╰╮┊┃╲╲╲
+    ┈┈┈┈┈┈┈┈┈┏╯╭╯┈┈┈
+                </pre>
+            </aside>
+            <q>работа<sup>лень</sup>=прогресс</q><br>
+            
+            <time datetime="2021-09-22">22.09.2021</time>
+        </footer>
+    </body>
+</html>
