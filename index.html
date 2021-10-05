@@ -9,17 +9,17 @@
     </head>
     <body>
         <header>
-            <section id="Мой опыт">
+            <section id="Мой_опыт">
                 <strong>Опыт программирования</strong>
                 <p>
                     Общий стаж: 6 лет (с 2015)<br>
                     Программировал на C/C++, Python, Java, HTML, Haskell, SQL, PHP, Pascal, Assembler, Bash<br>
-                    Работал с GIT репозиториями
+                    Работал с GIT репозиториями<br>
                     Опыт работы: отсутствует
                 </p>
             </section>
             <section id="Контакты">
-                <img src="resources/My_Photo.jpeg" height="160px" width="120px" alt=My_Photo>
+                <img src="resources/My_Photo.jpg">
                 <p>
                     Ольшанский Михаил Дмитриевич<br>
                     Контакты:<br>
@@ -28,25 +28,30 @@
                     Telegram: <a href="https://t.me/OlshMD">OlshMD</a>
                 </p>
             </section>
-            <nav>
-                <a href="#Контакты">Контакты</a><br>
-                <a href="#О себе">О себе</a><br>
-                <a href="#Мой опыт">Мой опыт</a><br>
-                <a href="#Мои проекты">Мои проекты</a><br>
-                <a href="#Мои у/н">Мои успехи и неудачи</a>
-            </nav> 
+            <article id="Приветствие">
+                <h4>Категорически приветствую</h4>
+                Я - Михаил, back-end developer. Это моё резюме, в котором собраны мои опыт, успехи, неудачи и личная информация<br>
+                Сейчас я учусь на 3 курсе бакалавриата в ИТМО. Также я прошёл на обучние в компании Netcracker, в которое вложу все силы<br>
+            </article>
         </header>
-            <main>
-            <aside id="О себе">
-                <h4>О себе</h4><br>
-                Родился <time datetime="2002-02-19">19 февраля 2002 года</time><br>
+        <main>
+            <nav id="Menue">
+                <ul>
+                    <li><a href="#Контакты">Контакты</a></li>
+                    <li><a href="#О_себе">О себе</a></li>
+                    <li><a href="#Мой_опыт">Мой опыт</a></li>
+                    <li><a href="#Мои_проекты">Мои проекты</a></li>
+                    <li><a href="#Мои_у/н">Мои успехи и неудачи</a></li>
+                </ul>
+            </nav> 
+            <aside id="О_себе">
                 Окончил ГФМЛ №30 в <time datetime="2019-06-24">2019 году</time><br>
                 Именно там увлёкся и начал заниматься программированием<br>
                 Сейчас я студент 3 курса ИТМО Факультета Информационных Технологий и Программирования<br>
                 Учусь на направлении Информационных Систем и Технологий<br>
                 Увлекаюсь баскетболом, катанием на велосипеде и лыжах, <del>ничего-не-далением</del> просмотром сериалов, животными и многим другим<br>
             </aside>
-            <section id="Мои проекты">
+            <section id="Мои_проекты">
                 <strong>Мои проекты</strong><br>
                 В рамках лабораторных в школе и университете писал:
                 <ul>
@@ -67,18 +72,18 @@
                     <li>другие работы</li>
                 </ul>
             </section>
-            <article>
+            <article id="My_code">
                 <h4>Пример моего кода</h4>
                 <pre><code lang="C++">
     int bfs(
-        std::vector<bool>& used,
-        const std::map<int, std::set<int>>& children,
+        std::vector&lt;bool&gt;& used,
+        const std::map&lt;int, std::set&lt;int&gt;&gt;& children,
         int point) {
 
-        std::set<int> points = children.at(point);
+        std::set&lt;int&gt; points = children.at(point);
         for (auto const& i : points) {
             used[i] = true;
-            std::set<int> i_children = children.at(i);
+            std::set&lt;int&gt; i_children = children.at(i);
             for (auto const& j : i_children) {
                 if (!used[j]) {
                     points.insert(j);
@@ -89,36 +94,36 @@
 
         return points.size();
     }
-
                 </code></pre>
             </article>
-            <section id="Мои у/н">
+            <section id="Мои_у/н">
                 <h4>Мои успехи и неудачи</h4>
                 <dl>
                     <dt>Успехи</dt>
                     <dd>Окончил ГФМЛ №30</dd>
                     <dd>2 года стабильно учился на 4/5 в университете</dd>
                     <dd>Участвовал во многих контестах</dd>
+                    <dd>Прошёл на обучение в Netcracker</dd>
                     <dt>Неудачи</dt>
                     <dd>Не прошёл собеседования в Яндекс и Saber</dd>
                 </dl>
             </section>
         </main>
         <footer>
-            <aside>
+            <asidetot id="totem">
                 <pre>
-    ╭━━━━┻┻╮╲╲╲╲╲┏╮Ⓣ
-    ┗┳┳┳╮╰┛┣╲╲╲╲╲┫┃╲
-    ╲╲╲╲┃┊┊╰┻┻┻┻┻╯┃Ⓡ
-    ┏┻┻┻╯┊┊┊┊┊┊┊┊╭╯Ⓔ
-    ╰━━━━━╮╭━╮┊┊╭╯╲Ⓧ
-    ╲╲╲╲╲╲╰╰╲╰╮┊┃╲╲╲
-    ┈┈┈┈┈┈┈┈┈┏╯╭╯┈┈┈
+╭━━━━┻┻╮╲╲╲╲╲┏╮Ⓣ
+┗┳┳┳╮╰┛┣╲╲╲╲╲┫┃╲
+╲╲╲╲┃┊┊╰┻┻┻┻┻╯┃Ⓡ
+┏┻┻┻╯┊┊┊┊┊┊┊┊╭╯Ⓔ
+╰━━━━━╮╭━╮┊┊╭╯╲Ⓧ
+╲╲╲╲╲╲╰╰╲╰╮┊┃╲╲╲
+┈┈┈┈┈┈┈┈┈┏╯╭╯┈┈┈
                 </pre>
             </aside>
             <q>работа<sup>лень</sup>=прогресс</q><br>
             
-            <time datetime="2021-09-22">22.09.2021</time>
+            <time datetime="2021-09-22">05.10.2021</time>
         </footer>
     </body>
 </html>

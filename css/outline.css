@@ -1,0 +1,101 @@
+body {
+    color: #ffffff;
+    background-image: url(../resources/background.jpg);
+    font-size: 18px;
+}
+
+h4 {
+    color: #00cc00;
+    font-size: 20px;
+}
+
+strong {
+    color: #ffaa00;
+}
+
+#Мой_опыт {
+    width: 20%;   
+    border-style: dashed;
+    border-radius: 20px;
+    border-color: #7109aa;
+    border-width: 7px;
+    padding-left: 1%;
+}
+
+#Контакты {
+
+}
+
+#Контакты img {
+    height: 240px;
+    width: 180px;
+    border-radius: 10%;
+}
+
+#О_себе {
+    color:  #ffffff;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #2419b2;
+    border-width: 3px;
+    width: 35%;   
+    padding: 1%;
+}
+
+#Menue {
+    width: 15%;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #2419b2;
+    border-width: 3px;
+}
+
+#Menue li {
+    margin: 10px;
+    margin-left: 0;
+}
+
+#My_code {
+    width: fit-content;
+    border-style: dotted;
+    border-radius: 20px;
+    border-color: #7109aa;
+    border-width: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#Мои_у\/н {
+    width: fit-content;
+    border-style: dotted;
+    border-radius: 20px;
+    border-color: #7109aa;
+    border-width: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+    }
+
+#Контакты {
+    width: 20%;
+}
+
+#Мои_проекты {
+    width: 50%;
+    border-style: dashed;
+    border-radius: 20px;
+    border-color: #7109aa;
+    border-width: 7px;
+    padding: 1%;
+}
+
+#Приветствие {
+    text-align: center;
+}
+
+a[href] {
+    color: #ffc500;
+}
+
+footer {
+    text-align: center;
+}
