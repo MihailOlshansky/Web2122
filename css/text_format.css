@@ -1,0 +1,59 @@
+body {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+strong {
+    font-style: italic;
+}
+
+#Мой_опыт {
+}
+
+#Контакты {
+    line-height: 150%;    
+}
+
+#О_себе {
+
+}
+
+#Menue {
+}
+
+#Menue li {
+}
+
+#My_code {
+}
+
+#Мои_у\/н dt{
+    color: #ffaa00;
+}
+
+#Контакты {
+}
+
+#Мои_проекты {
+}
+
+#Приветствие {
+    text-align: center;
+}
+
+a[href] {
+}
+
+footer {
+    text-align: center;
+}
+
+#totem {
+    color: greenyellow
+}

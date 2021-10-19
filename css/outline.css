@@ -1,12 +1,10 @@
 body {
     color: #ffffff;
     background-image: url(../resources/background.jpg);
-    font-size: 18px;
 }
 
 h4 {
-    color: #00cc00;
-    font-size: 20px;
+    color: #ffaa00;
 }
 
 strong {
@@ -14,7 +12,7 @@ strong {
 }
 
 #Мой_опыт {
-    width: 20%;   
+    width: 480px;   
     border-style: dashed;
     border-radius: 20px;
     border-color: #7109aa;
@@ -23,7 +21,9 @@ strong {
 }
 
 #Контакты {
-
+    width: 300px;
+    border-color: #2419b2;
+    border-style: solid;
 }
 
 #Контакты img {
@@ -38,12 +38,12 @@ strong {
     border-radius: 20px;
     border-color: #2419b2;
     border-width: 3px;
-    width: 35%;   
+    width: 480px;   
     padding: 1%;
 }
 
 #Menue {
-    width: 15%;
+    width: 240px;
     border-style: solid;
     border-radius: 20px;
     border-color: #2419b2;
@@ -56,7 +56,7 @@ strong {
 }
 
 #My_code {
-    width: fit-content;
+    width: 550px;
     border-style: dotted;
     border-radius: 20px;
     border-color: #7109aa;
@@ -66,21 +66,17 @@ strong {
 }
 
 #Мои_у\/н {
-    width: fit-content;
+    width: 400px;
     border-style: dotted;
     border-radius: 20px;
     border-color: #7109aa;
     border-width: 5px;
     padding-left: 1%;
     padding-right: 1%;
-    }
-
-#Контакты {
-    width: 20%;
 }
 
 #Мои_проекты {
-    width: 50%;
+    width: 550px;
     border-style: dashed;
     border-radius: 20px;
     border-color: #7109aa;
@@ -89,7 +85,6 @@ strong {
 }
 
 #Приветствие {
-    text-align: center;
 }
 
 a[href] {
@@ -97,5 +92,4 @@ a[href] {
 }
 
 footer {
-    text-align: center;
 }
