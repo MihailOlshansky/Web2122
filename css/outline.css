@@ -1,14 +1,11 @@
 body {
-    color: #ffffff;
     background-image: url(../resources/background.jpg);
 }
 
 h4 {
-    color: #ffaa00;
 }
 
 strong {
-    color: #ffaa00;
 }
 
 #Мой_опыт {
@@ -33,7 +30,6 @@ strong {
 }
 
 #О_себе {
-    color:  #ffffff;
     border-style: solid;
     border-radius: 20px;
     border-color: #2419b2;
@@ -88,7 +84,6 @@ strong {
 }
 
 a[href] {
-    color: #ffc500;
 }
 
 footer {

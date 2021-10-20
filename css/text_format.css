@@ -1,15 +1,18 @@
 body {
+    color: #ffffff;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
 }
 
 h4 {
+    color: #ffaa00;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 strong {
+    color: #ffaa00;
     font-style: italic;
 }
 
@@ -30,7 +33,9 @@ strong {
 #Menue li {
 }
 
-#My_code {
+#My_code code{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
 }
 
 #Мои_у\/н dt{
@@ -48,6 +53,8 @@ strong {
 }
 
 a[href] {
+    color: #ffc500;
+    text-decoration: none;
 }
 
 footer {
