@@ -5,6 +5,10 @@ body {
 header {
 }
 
+main {
+    margin: 20px;
+}
+
 h4 {
 }
 
@@ -12,7 +16,7 @@ strong {
 }
 
 #Мой_опыт {
-    width: 480px;   
+    width: 400px;   
     border-style: dashed;
     border-radius: 20px;
     border-color: #7109aa;

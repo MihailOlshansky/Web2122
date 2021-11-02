@@ -24,14 +24,6 @@ main {
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    flex-basis: 50%;
-}
-
-#main_header {
-    display: -webkit-flex;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     flex-basis: 50%;
 }
