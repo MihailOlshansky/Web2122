@@ -24,10 +24,11 @@ strong {
 }
 
 #О_себе {
-
+    margin: 10px;
 }
 
 #Menue {
+    margin: 10px;
 }
 
 #Menue li {
@@ -49,7 +50,6 @@ strong {
 }
 
 #Приветствие {
-    text-align: center;
 }
 
 a[href] {

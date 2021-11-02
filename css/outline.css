@@ -2,6 +2,9 @@ body {
     background-image: url(../resources/background.jpg);
 }
 
+header {
+}
+
 h4 {
 }
 
@@ -18,14 +21,14 @@ strong {
 }
 
 #Контакты {
-    width: 300px;
+    width: fit-content;
     border-color: #2419b2;
     border-style: solid;
 }
 
 #Контакты img {
-    height: 240px;
-    width: 180px;
+    height: 200px;
+    width: 150px;
     border-radius: 10%;
 }
 
