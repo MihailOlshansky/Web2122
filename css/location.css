@@ -28,6 +28,10 @@ main {
     flex-basis: 50%;
 }
 
+#main_header {
+    justify-content: center;
+}
+
 #Приветствие {
     display: -webkit-flex;
     display: flex;
@@ -41,4 +45,23 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#Menue_Header {
+    justify-content: center;
+}
+
+#Menue {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+#Menue ul {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

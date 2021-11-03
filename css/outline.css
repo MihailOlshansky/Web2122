@@ -43,19 +43,28 @@ strong {
     border-width: 3px;
     width: 480px;   
     padding: 1%;
+    margin: 10px;
 }
 
 #Menue {
-    width: 240px;
     border-style: solid;
     border-radius: 20px;
     border-color: #2419b2;
+    background-color: #2419b2;
     border-width: 3px;
+    margin: 10px;
+    padding: 0px;
 }
 
-#Menue li {
+#Menue ul {
+    padding: 0px;
     margin: 10px;
-    margin-left: 0;
+}
+
+
+#Menue ul li {
+    margin: 10px;
+    list-style-type: none;
 }
 
 #My_code {
@@ -87,7 +96,8 @@ strong {
     padding: 1%;
 }
 
-#Приветствие {
+#Приветствие p {
+    margin: 0px;
 }
 
 a[href] {
