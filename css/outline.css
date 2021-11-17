@@ -2,17 +2,8 @@ body {
     background-image: url(../resources/background.jpg);
 }
 
-header {
-}
-
 main {
     margin: 20px;
-}
-
-h4 {
-}
-
-strong {
 }
 
 #Мой_опыт {
@@ -54,17 +45,22 @@ strong {
     border-width: 3px;
     margin: 10px;
     padding: 0px;
+    width: fit-content;
 }
 
 #Menue ul {
     padding: 0px;
     margin: 10px;
+    width: fit-content;
 }
 
 
 #Menue ul li {
     margin: 10px;
     list-style-type: none;
+    width: 100px;
+    padding: 2px;
+    text-align: center;
 }
 
 #My_code {
@@ -100,8 +96,14 @@ strong {
     margin: 0px;
 }
 
-a[href] {
+.navigation:hover{
+    color: #000;;
 }
 
-footer {
+.current_page{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #ffaa00;
+    border-width: 1px;
+    padding: 1%;
 }
