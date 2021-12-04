@@ -19,6 +19,7 @@ main {
     width: fit-content;
     border-color: #2419b2;
     border-style: solid;
+    margin-top: 5px;
 }
 
 #Контакты img {
@@ -37,14 +38,19 @@ main {
     margin: 10px;
 }
 
+#Menue_Header {
+    margin-top: -10px;
+}
+
 #Menue {
     border-style: solid;
-    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     border-color: #2419b2;
     background-color: #2419b2;
     border-width: 3px;
-    margin: 10px;
-    padding: 0px;
+    margin: 0px;
+    padding: 5px;
     width: fit-content;
 }
 
@@ -56,11 +62,12 @@ main {
 
 
 #Menue ul li {
-    margin: 10px;
+    margin: 0px 5px;
     list-style-type: none;
-    width: 100px;
+    width: fit-content;
     padding: 2px;
     text-align: center;
+    white-space: nowrap ;
 }
 
 #My_code {
@@ -81,6 +88,7 @@ main {
     border-width: 5px;
     padding-left: 1%;
     padding-right: 1%;
+    margin: 5px;
 }
 
 #Мои_проекты {
@@ -107,3 +115,4 @@ main {
     border-width: 1px;
     padding: 1%;
 }
+

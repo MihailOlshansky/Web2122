@@ -1,12 +1,14 @@
+const startTime = Date.now()
+
 window.onload = function() {
 	menue_current_page()
 	show_load_time()
 }
 
 function show_load_time() {
-	let loadTime = 
-        window.performance.timing.domContentLoadedEventEnd 
-        - window.performance.timing.navigationStart
+    let endTime = Date.now();
+	let loadTime = endTime - startTime;
+        
 
     let p = document.createElement("p")
 	let text = document.createTextNode("Load time " + loadTime / 1000 + " seconds")
@@ -17,11 +19,8 @@ function show_load_time() {
 }
 
 function menue_current_page(){
-    let pages = ["index", "about_me", "my_programming"]
-    let filename =
-        new RegExp("/([A-Za-z0-9_]+)\.html")
-            .exec(document.location.href)[1]
+    let titles = ["Ольшанский Михаил M33021", "Ольшанский Михаил M33021 - О себе", "Ольшанский Михаил M33021 - Мои навыки"]
     
     let navigations = document.querySelectorAll(".navigation")
-    navigations[pages.indexOf(filename)].className += " current_page"
+    navigations[titles.indexOf(document.getElementsByTagName('title')[0].innerText)].className += " current_page"
 }

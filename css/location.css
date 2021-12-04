@@ -49,6 +49,7 @@ main {
 
 #Menue_Header {
     justify-content: center;
+    align-items: baseline;
 }
 
 #Menue {
@@ -63,5 +64,13 @@ main {
     display: -webkit-flex;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#Menue ul li{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
