@@ -19,7 +19,8 @@ function show_load_time() {
 }
 
 function menue_current_page(){
-    let titles = ["Ольшанский Михаил M33021", "Ольшанский Михаил M33021 - О себе", "Ольшанский Михаил M33021 - Мои навыки"]
+    let defTitle = "Ольшанский Михаил M33021" 
+    let titles = [defTitle, defTitle + " - О себе", defTitle + " - Мои навыки", "Интерактив", "Дата"]
     
     let navigations = document.querySelectorAll(".navigation")
     navigations[titles.indexOf(document.getElementsByTagName('title')[0].innerText)].className += " current_page"
