@@ -16,20 +16,8 @@ strong {
     font-style: italic;
 }
 
-#Мой_опыт {
-}
-
 #Контакты {
     line-height: 150%;    
-}
-
-#О_себе {
-}
-
-#Menue {
-}
-
-#Menue li {
 }
 
 #My_code code{
@@ -39,15 +27,6 @@ strong {
 
 #Мои_у\/н dt{
     color: #ffaa00;
-}
-
-#Контакты {
-}
-
-#Мои_проекты {
-}
-
-#Приветствие {
 }
 
 a[href] {

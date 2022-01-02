@@ -1,0 +1,93 @@
+#todos {
+    margin-top: 70px;
+}
+
+.todo {
+    width: 600px;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: #7109aa;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.loading_gif {
+	position: fixed;
+	top: 30%;
+	left: 37%;
+	width: 400px;
+	height: 200px;
+	background: url('../resources/loading1.gif');
+	z-index: 100;
+}
+
+.loading .loading_gif {
+	display: initial;
+}
+
+.loaded .loading_gif {
+    display: none;
+}
+
+#buttons {
+    display: -webkit-flex;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #ffaa00;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    width: 80px;
+}
+
+header {
+    display: -webkit-flex;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+main {
+    display: -webkit-flex;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+p {
+    margin: 0px;
+}
+
+#Menue {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+#Menue ul {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#Menue ul li{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
